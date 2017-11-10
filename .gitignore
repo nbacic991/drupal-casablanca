@@ -1,8 +1,12 @@
-#Ignored files nad folders
+# MCI ignore files
 
+# IDE
 /.idea/
-runtime/
 
-vendor/
+# Docker
+/runtime/
 
-/node_modules/
+# OS
+.DS-Store
+
+node_modules/
