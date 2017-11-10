@@ -1,0 +1,19 @@
+# Theme information
+name: Casablanca
+type: theme
+base theme: classy
+description: Drupal theme files to quickly kickstart a new theme development.
+core: 8.x
+version: 1.x
+
+# Include libraries
+libraries:
+  - casablanca/global-css
+  - casablanca/global-js
+
+# Regions
+regions:
+  primary_menu: 'Primary menu'
+  header: 'Header'
+  content: 'Content'
+  footer: 'Footer'

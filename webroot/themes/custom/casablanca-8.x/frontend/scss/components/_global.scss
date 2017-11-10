@@ -1,0 +1,107 @@
+/*
+ * Colors
+ */
+
+$color-orange : #B55A41;
+$color-white : #ffffff;
+$color-black : #000000;
+
+$clients-background : #f4f4f4;
+$footer-left-color : #f2f2f2;
+$footer-right-color : #e4e4e4;
+
+/*
+ * Global field style
+ */
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.field__items {
+  margin: 50px auto;
+}
+/*
+ *  Heading style
+ */
+
+.field--name-field-heading,
+.field--name-field-gallery-title,
+.field--name-field-hiring-text {
+  margin-bottom: 10px;
+  &::after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid #222222;
+    width: 100px;
+    margin: 50px auto;
+  }
+}
+
+/*
+ * Call-To-Action
+ * Sections
+ */
+
+
+.field--name-field-cta-first {
+  background: url('../assets/images/layout/lepy.jpg') no-repeat center;
+  background-size: cover;
+}
+.field--name-field-cta- {
+  background: url('../assets/images/layout/helo.jpg') no-repeat center;
+  background-size: cover;
+}
+.field--name-field-cta-thirds {
+  background: url('../assets/images/layout/quotes.jpg') no-repeat center;
+  background-size: cover;
+}
+
+// CTA link style
+.field--name-field-cta-link {
+  padding: 200px 0;
+  text-align: center;
+  a {
+    border: 3px solid #fff;
+    margin: 0 auto;
+    padding: 22px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    display: block;
+    max-width: 425px;
+    font-weight: 700;
+    text-decoration: none;
+    &:hover {
+      background-color: $color-orange;
+    }
+  }
+}
+
+/*
+ * Gallery
+ */
+
+.form-radios {
+  input {
+    display: none;
+  }
+  .js-form-item {
+    display: inline-block;
+  }
+  .option {
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #222222;
+    padding: 5px 20px;
+    text-transform: uppercase;
+  }
+  .clicked {
+    font-weight: 700;
+  }
+}

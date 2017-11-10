@@ -1,0 +1,74 @@
+@media (min-width: 830px){
+
+  .paragraph--type--clients {
+    .field--name-field-clients-logos {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      .field__item {
+        flex-basis: 20%;
+      }
+    }
+  }
+
+  .field--name-field-about-single {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .field--name-field-slider-item- {
+    display: flex;
+    justify-content: space-between;
+    .field__item {
+      flex-basis: 33%;
+    }
+  }
+
+  .field--name-field-footer-top {
+    display: flex;
+    .field__item:nth-child(1) {
+      flex-basis: 40%;
+    }
+    .field__item:nth-child(2) {
+      flex-basis: 60%;
+    }
+  }
+
+  .field--name-field-footer-top {
+    .paragraph--type--contact-info {
+      .field--name-field-heading,
+      .field--name-field-address,
+      .item-list--linkicon {
+        padding: 0;
+        width: 300px;
+        margin: auto;
+      }
+      .field--name-field-address {
+        p {
+          text-align: left;
+        }
+      }
+    }
+  }
+
+  .field--name-field-cotnact- {
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+    .js-form-type-textfield {
+      display: inline-block;
+      width: calc(50% - 4px);
+    }
+    .js-form-type-email {
+      display: inline-block;
+      width: calc(50% - 4px);
+    }
+    input[type=submit]{
+      margin-right: 30px;
+      text-align: right;
+    }
+  }
+
+
+}

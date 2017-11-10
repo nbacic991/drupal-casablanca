@@ -1,0 +1,510 @@
+// @file _main contains
+// Regions and sections style
+// --------------------------------------------------
+
+
+
+/*
+ * Main navigation
+ */
+.navigation {
+  position: relative;
+  &.open {
+    .region-primary-menu {
+      display: block;
+      background-color: #000000;
+    }
+  }
+}
+.region-primary-menu {
+  display: none;
+}
+.mobile-menu {
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  padding: 15px;
+  cursor: pointer;
+  span {
+    display: block;
+    background-color: $color-white;
+    padding: 3px 20px;
+    margin: 4px 0;
+  }
+}
+
+.menu--main {
+  .menu {
+    margin: 0;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    .menu-item {
+      padding: 15px 0;
+      a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $color-white;
+        font-weight: bold;
+        &:hover {
+          color: $color-orange;
+        }
+      }
+      &:hover {
+        color: #B55A41;
+      }
+    }
+  }
+}
+
+/*
+ * Content
+ */
+
+.field--name-field-header {
+  margin-top: 0;
+  .field--name-field-heading {
+    text-transform: uppercase;
+    font-size: 48px;
+    line-height: 60px;
+    color: $color-white;
+    &::after {
+      border-color: $color-white;
+    }
+  }
+  .field--name-field-description {
+    color: $color-white;
+    p {
+      text-align: center;
+      font-size: 14px;
+      line-height: 25px;
+    }
+  }
+}
+.field--name-field-heading,
+.field--name-field-gallery-title,
+.field--name-field-hiring-text {
+  text-align: center;
+  font-size: 30px;
+  line-height: 60px;
+  font-weight: 900;
+  letter-spacing: 4px;
+  text-transform: uppercase
+}
+.field--name-field-gallery-title {
+  text-align: center;
+}
+.field--name-field-header {
+  background: url('../assets/images/layout/banner.jpg') no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  .paragraph--type--text {
+    padding: 200px 0;
+    text-align: center;
+    font-size: 30px;
+    line-height: 60px;
+  }
+}
+.field--name-field-introduction {
+  .paragraph--type--text {
+    padding: 50px 0;
+    text-align: center;
+    p {
+      font-style: italic;
+      color: #222222;
+      font-weight: 300;
+    }
+  }
+}
+
+/*
+ * Gallery
+ */
+
+.form-radios {
+  text-align: center;
+}
+.view-gallery {
+  .view-content {
+    overflow: hidden;
+    .views-row {
+      margin: auto;
+      flex-basis: 370px;
+      position: relative;
+      display: inline-block;
+      &:nth-child(3) {
+        margin-bottom: 50px;
+      }
+      &:hover {
+        .views-field-field-gallery-image-text {
+          visibility: visible !important;
+        }
+      }
+      .views-field-field-gallery-image-text {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.75);
+        border: 10px solid #000;
+        color: #fff;
+        width: 100%;
+        height: auto;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        visibility: hidden;
+        padding-top: 0;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        p {
+          color: $color-white;
+          margin: auto;
+          &:nth-child(1){
+            text-transform: uppercase;
+            font-size: 18px;
+            letter-spacing: 1px;
+            line-height: 24px;
+            padding-bottom: 5px;
+            padding-top: 140px;
+          }
+          &:nth-child(2){
+            font-size: 14px;
+            color: #fff;
+            font-weight: 300;
+            padding-top: 20px;
+            &::after {
+              content: '';
+              display: block;
+              height: 1px;
+              width: 50px;
+              background: #d87843;
+              margin: 20px auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.field--name-field-hiring-link {
+  margin: 50px 0;
+  text-align: center;
+  a {
+    border: 3px solid $color-black;
+    text-decoration: none;
+    color: $color-black;
+    padding: 22px 20px;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 55px auto;
+    &:hover {
+      background-color: $color-black;
+      color: $color-white;
+    }
+  }
+}
+.field--name-field-gallery-l {
+  margin: 50px 0;
+  text-align: center;
+  a {
+    border: 3px solid $color-black;
+    text-decoration: none;
+    color: $color-black;
+    padding: 22px 70px;
+    font-weight: 700;
+    font-size: 24px;
+    max-width: 425px;
+    margin: 55px auto;
+    display: block;
+    &:hover {
+      background-color: $color-black;
+      color: $color-white;
+    }
+  }
+}
+
+.field--name-field-cta- {
+  margin-bottom: 0;
+}
+
+/*
+ * Clients
+ */
+.field--name-field-clients {
+  background-color: $clients-background;
+  margin-top: 0;
+  padding: 50px 0;
+  .paragraph--type--clients {
+    .field__item {
+      margin: 40px 0;
+      text-align: center;
+    }
+    .field--name-field-clients-logos {
+      padding: 0 15px;
+    }
+  }
+}
+.field--name-field-about-us {
+  .field--name-field-description {
+    p {
+      text-align: center;
+      font-size: 14px;
+      line-height: 25px;
+    }
+  }
+}
+.field--name-field-gallery {
+  .field__item {
+    text-align: center;
+    position: relative;
+
+  }
+}
+
+/*
+ * About us
+ */
+
+.field--name-field-about-single {
+  .field__item {
+    .paragraph--type--about-us-image {
+      max-width: 270px;
+      width: 100%;
+      height: auto;
+      margin: auto;
+      &:hover {
+        .field--name-field-u {
+          visibility: visible !important;
+        }
+      }
+    }
+  }
+}
+.paragraph--type--about-us-image {
+  position: relative;
+  .field--type-image {
+    position: relative;
+  }
+  .field--name-field-u {
+    margin: auto;
+    max-width: 270px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.75);
+    border: 10px solid #000;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    visibility: hidden;
+    padding-top: 0;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    p {
+      color: $color-white;
+      margin: auto;
+      &:nth-child(1){
+        padding-top: 140px;
+      }
+      &:nth-child(2){
+        padding-top: 20px;
+      }
+    }
+  }
+}
+.paragraph--type--hiring-text {
+  width: 270px;
+  height: 360px;
+  border: 2px solid #222;
+  text-align: center;
+  margin:auto;
+  padding: 50px 0;
+}
+
+/*
+ * Video section
+ */
+
+.field--name-field-description,
+.paragraph--type--gallery,
+.paragraph--type--clients,
+.paragraph--type--about-us {
+  max-width: 1170px;
+  width: 100%;
+  margin: auto;
+}
+
+/*
+ * Slick slider
+ */
+.slick-dots li {
+  color: $color-orange;
+}
+.paragraph--type--slider-item {
+  text-align: center;
+  .field--name-field-slider-image {
+    margin-bottom: 30px;
+    img {
+      margin: auto;
+    }
+  }
+  .field--name-field-slider-text {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .field--name-field-slide-description {
+
+    p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}
+
+/*
+ * Footer top
+ */
+.field--name-field-footer-heading {
+  .field--name-field-description {
+    p {
+      text-align: center;
+    }
+  }
+}
+.item-list--linkicon {
+  margin: 20px auto;
+  padding: 0 15px;
+  .linkicon {
+    display: flex;
+    justify-content: space-around;
+    li {
+      margin: 0;
+      list-style-type: none;
+      .linkicon__item {
+        color: #222222;
+        font-size: 26px;
+        .linkicon__text {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+/*
+ * Webform
+ */
+.js-form-item {
+  margin: 30px 0;
+}
+.form-textarea-wrapper {
+  margin-top: 20px;
+}
+.field--name-field-footer-top {
+  background-color: $footer-left-color;
+  margin-bottom: 0;
+  .paragraph--type--contact-info {
+    padding: 30px 0;
+    .field--name-field-heading {
+      &::after {
+        display: none;
+      }
+    }
+    .field--name-field-address {
+      padding: 0 15px;
+      text-align: center;
+    }
+  }
+  .paragraph--type--contact-form {
+    background-color: $footer-right-color;
+    .field--name-field-cotnact- {
+      padding: 50px 0;
+      label {
+        display: none;
+      }
+      form {
+        padding: 0 15px;
+      }
+    }
+  }
+}
+.field--type-webform {
+  input[type=text],
+  input[type=email],
+  textarea {
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #afafaf;
+    background: none;
+    outline: none;
+    padding: 5px;
+    &:focus{
+      border-color: $color-orange;
+    }
+  }
+  textarea {
+    margin-top: 40px;
+  }
+  input[type=submit] {
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    border: 3px solid $color-black;
+    color: $color-black;
+    text-decoration: none;
+    padding: 22px 40px;
+    font-weight: 700;
+    font-size: 24px;
+    max-width: 425px;
+    -webkit-transition: .4s all ease-in-out;
+    -moz-transition: .4s all ease-in-out;
+    -ms-transition: .4s all ease-in-out;
+    -o-transition: .4s all ease-in-out;
+    transition: .4s all;
+    &:hover {
+      background-color: $color-black;
+      color: $color-white;
+    }
+  }
+  textarea {
+    height: 30px;
+  }
+}
+
+/*
+ * Footer copyright
+ */
+.field--name-field-footer {
+  background-color: $color-black;
+  padding: 100px 0;
+  margin: 0;
+  .field--name-field-footer-logo {
+    img {
+      display: block;
+      margin: auto;
+      max-width: 380px;
+      width: 100%;
+      height: auto;
+    }
+  }
+  .field--name-field-footer-copyright {
+    color: $color-white;
+    text-align: center;
+    a {
+      color: $color-orange;
+      text-decoration: none;
+      &:hover {
+        color: $color-white;
+      }
+    }
+  }
+}

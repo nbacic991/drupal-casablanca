@@ -1,0 +1,8 @@
+#Ignored files nad folders
+
+/.idea/
+runtime/
+
+vendor/
+
+/node_modules/
