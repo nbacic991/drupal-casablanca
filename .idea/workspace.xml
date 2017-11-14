@@ -27,8 +27,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -342,6 +342,7 @@
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/assets/casablanca-8.x/frontend/node_modules/gulp" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="add_unversioned_files" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -441,15 +442,16 @@
       <workItem from="1510230789436" duration="1623000" />
       <workItem from="1510236665127" duration="2344000" />
       <workItem from="1510299002773" duration="6984000" />
-      <workItem from="1510309529797" duration="1273000" />
+      <workItem from="1510309529797" duration="2023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51359000" />
+    <option name="totallyTimeSpent" value="52109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="36" y="248" width="1368" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="GfmBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2977273" sideWeight="0.5970874" order="2" side_tool="true" content_ui="tabs" />
@@ -826,8 +828,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding />
         </state>
       </provider>
